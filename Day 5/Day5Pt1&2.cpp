@@ -42,8 +42,6 @@ void addLine(vector<vector<int>>& v, int x, int y, int x2, int y2, bool diag){
     int tmp2 = 0;
     int tmpxHi = 0;
     int tmpyHi = 0;
-    int counter = 0;
-
     if(x == x2 ){
         if(y < y2){
             for(int i = y; i<=y2; i++){
